@@ -8,6 +8,8 @@ const handleCmd = cmd => {
 			return 'add'
 		case 'rm':
 			return 'remove'
+		case 'check':
+			return 'checked'
 		default:
 			return `${cmd} is not supported`
 	}
